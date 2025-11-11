@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Earth-API</title>
+    <!-- tailwind & daisy ui link connected -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="max-w-full m-auto">
+    <nav class="flex justify-between items-center p-4 px-15 bg-[#15803D]">
+        <h1 class="text-white text-[24px]">Green Earth</h1>
+        <div class="space-x-5">
+            <a href="" class="text-[18px] text-white">About</a>
+            <a href="" class="text-[18px] text-white">Gallery</a>
+            <a href="" class="text-[18px] text-white">Plant a Tree</a>
+        </div>
+        <button class="btn border-none rounded-3xl btn-warning bg-[#FACC15] p-4">Plant a Tree</button>
+    </nav>
+    <main class="bg-[#F0FDF4]">
+        <!-- banner section start here -->
+        <section class="flex justify-between items-center bg-[#cff0dc] ">
+            <img src="./assets/hero-leaf1.png" alt="" class="w-[450px]">
+            <div class="space-y-4 text-center">
+                <h1 class="font-bold text-[50px]">Plant a Tree, Grow a Future</h1>
+                <p class="text-[17px]">Join our mission to plant 1 million trees and make the Earth greener for future
+                    generations.</p>
+                <button class="btn border-none rounded-3xl btn-warning bg-[#FACC15] p-4">Get Involved</button>
+            </div>
+            <img src="./assets/hero-leaf2.png" alt="" class="w-[450px]">
+        </section>
+
+        <!-- API section start here -->
+        <section class="max-w-[1300px] m-auto mb-10">
+            <h1 class="text-[30px] text-center mt-[100px] ">Choose Your Trees</h1>
+
+            <div class="border border-blue-500 grid grid-cols-13 gap-6 m-auto mt-6">
+                <!-- Categories section start here -->
+                <div class="col-span-2 border border-green-500">
+                    <h1>Categories</h1>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+
+                <!-- Card seciton start here -->
+                <div class="border border-orange-500 col-span-3 p-4 ">
+                    <img src="./assets/hero-leaf1.png" alt="">
+                    <h1 class="text-[20px]">Mongo Tree</h1>
+                    <p>A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense
+                        green</p>
+                    <button class="btn btn-wide bg-green-500 rounded-3xl">Add to Cart</button>
+                </div>
+                <div class="border border-orange-500 col-span-3 p-4">
+                    <img src="./assets/hero-leaf1.png" alt="">
+                    <h1 class="text-[20px]">Mongo Tree</h1>
+                    <p>A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense
+                        green</p>
+                    <button class="btn btn-wide bg-green-500 rounded-3xl">Add to Cart</button>
+                </div>
+                <div class="border border-orange-500 col-span-3 p-4">
+                    <img src="./assets/hero-leaf1.png" alt="">
+                    <h1 class="text-[20px]">Mongo Tree</h1>
+                    <p>A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense
+                        green</p>
+                    <button class="btn btn-wide bg-green-500 rounded-3xl">Add to Cart</button>
+                </div>
+               
+                <div class="border border-orange-500 col-span-2">Your Cart</div>
+
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
