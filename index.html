@@ -35,13 +35,15 @@
 
         <!-- API section start here -->
         <section class="max-w-[1300px] m-auto mb-10 bg-[#f0fdf4] p-2">
-            <h1 class="text-[30px] text-center mt-[50px] mb-[30px]">Choose Your Trees</h1>
+            <h1 class="text-[30px] text-center mt-[50px] mb-[30px] font-semibold">Choose Your Trees</h1>
             <!-- Categories section start here -->
             <div class="grid grid-cols-16 gap-3 ">
                 <div class="col-span-3 gap-6 ">
                     <h1 class="text-[20px] font-bold">Categories</h1>
                     <ul id="categoriesContainer" class="col-span-2 mt-4 gap-2 grid h-fit">
-                        <li class="text-[16px] font-medium p-2 hover:bg-green-700 bg-green-700 rounded text-white">All Trees</li>
+                        <li id="allTrees" onclick=""
+                            class="text-[16px] font-medium p-2 hover:bg-green-700 bg-green-700 rounded text-white">All
+                            Trees</li>
 
                     </ul>
                 </div>
@@ -51,7 +53,23 @@
                 </div>
                 <!-- cart section start here -->
                 <div class="col-span-2 border border-orange-500 h-fit">Your Cart</div>
+            </div>
+        </section>
 
+        <!-- About the Campaign section start here -->
+        <section class="max-w-[900px] m-auto mb-10 bg-[#f0fdf4]  border border-orange-500">
+            <h1 class="text-[32px] font-semibold text-center">About the Campaign</h1>
+            <div class="flex p-10">
+                <img class="w-[400px] h-[400px]" src="./assets/about.png" alt="">
+                <div class="flex flex-col border border-orange-500 p-5 justify-center">
+                    <p>Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since
+                        our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore
+                        forests, create habitats for wildlife, and combat global warming.</p>
+                        
+                            <li class="ml-10">Restoration of natural habitats</li>
+                            <li class="ml-10">Improvement of air quality</li>
+                            <li class="ml-10">Support for local communities</li>                       
+                </div>
             </div>
         </section>
     </main>
