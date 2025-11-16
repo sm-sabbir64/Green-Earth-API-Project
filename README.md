@@ -1,89 +1,6 @@
-## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-006
-
-### 📅 Deadline For 60 marks: 9th September, 2025 (11:59 pm ⏱️)
-
-### 📅 Deadline For 50 marks : 13th September , 2025 (6:00 pm⏱️)
-
-### 📅 Deadline For 30 marks: Any time after 13the September , 2025 (6:01 pm⏱️).
 
 ---
-# Green Earth
-
-
-## Private Repository: https://classroom.github.com/a/nVZrg5R9 
-
-## Alternative Private Repository: https://classroom.github.com/a/KCGI14ST 
-
-## Alternative Private Repository: https://classroom.github.com/a/JMuIYqgK 
-
-
----
-🌴 API Endpoints
----
-1. Get 🌴All Plants
-```bash
-https://openapi.programming-hero.com/api/plants
-```
-
-2. Get 🌴All categories <br/>
-```bash
-https://openapi.programming-hero.com/api/categories
-```
-
-
-3. Get 🌴plants by categories <br/>
-```bash
-https://openapi.programming-hero.com/api/category/${id}
-```
-
-```bash
-https://openapi.programming-hero.com/api/category/1
-```
-
-4. Get 🌴Plants Detail <br/>
-
-```bash
-https://openapi.programming-hero.com/api/plant/${id}
-```
-
-```bash
-https://openapi.programming-hero.com/api/plant/1
-```
----
-
-
-
-
-## ✅ Main Requirements 
-
-#### 1) Navbar
-
-- Website **logo/name** on the **left**  
-- **Menu items** in the **center** 
-- **Plant a Tree button** on the **right** 
-
-#### 2) Banner 
-- A **background image**  
-- A **title** and **subtitle**  
-- A **centered button**  
-
-#### 3) About Campaign
-- **Section heading**  
-- **Image on the left**, **text on the right**  
-
-#### 4) Our Impact Section 
-- Show **3 cards** with campaign **statistics**  
-
-#### 5) Plant a Tree Today Section & Footer
-- **Form**: Name, Email, Number of Trees  
-- **Footer** with copyright info 
-
-#### 6) Responsiveness 
-- Website must be **mobile responsive**  
-
----
-#### 7) Create a README file to answer the following question-
-
+#### Create a README file to answer the following question-
 
 #### 1) What is the difference between var, let, and const?
 
@@ -95,75 +12,63 @@ https://openapi.programming-hero.com/api/plant/1
 
 #### 5) Explain template literals in ES6. How are they different from string concatenation?
 
-## ⚙️ Functionalities 
+### Answer the quetion no-1
+### Var
+Function scope (global scope variable).
+Redeclare kora jay .
+Update kora jay .
+Hoisted hoy (initial value: undefined).
+Old way - bugs er chance beshi.
 
-1) Category Loading 
-Load Tree Categories dynamically on the left side.
+### let
+Block scope { }.
+Redeclare kora jay na .
+Update kora jay.
+Hoisted but use korle error dei.
 
-2) Category Click → Tree Data 
-On clicking a category: load trees of that category.
-
-Display in a 3-column card layout.
-
-3) Card Contents 
- Each card includes:
-
-        - Image
-
-        -  Name
-
-        - Short description
-
-        - Category
-
-        - Price
-
-        - Add to Cart button
-
-4) Modal on Card Click 
-Clicking a tree name on a card opens a modal with full tree details.
+### const 
+Block scope { }.
+Redeclare kora jaina.
+Update kora jaina.
+Must be initialized immediately.
+But array/object value change kora jay (reference same thaka lagbe)
 
 
-##  🧪 Challenges 
+### Answer the question no-2
+### forEach()
+ A normal loop.
+Only executes a function for each element.
+Does not return a new array (Undefined dibe).
 
+### map()
+Loops through array.
+Returns a new array.
+Each element can be transformed/modified.
 
-    1) Add to Cart 
-    Clicking Add to Cart: - Adds the tree to Cart List
-                          - Shows tree name 
+### filter()
+Loops through array.
+Returns a new array based on condition.
+Only elements that pass the test will be included.
 
-    2) Total Calculation 
-    Calculate total price of trees in cart.
+### Answer the question no-3
+### Arrow Function.
+Function likhar shortcut syntax eta.
+this keyword lexically bind kore (mane kaj korar style different hoi).
+Cleaner and easy lage likhte.
 
-    3) Remove from Cart 
-    Clicking ❌ removes tree and deducts price from total.
+### Answer the question no-4
+### Before (Old way)
+const arr = [10, 20, 30];
+const a = arr[0];
+const b = arr[1];
+const c = arr[2];
+### ES6 Destructuring (Shortcurt way)
+const [a, b, c] = [10, 20, 30];
+console.log(a, b, c);
 
-    4) Loading Spinner
-    Show spinner while data is loading.
-
-    5) Active Button State 
-    Highlight active category button when selected.
-
-
-
-🧰 Technology Stack:
-        
-        HTML
-
-        CSS (Vanilla / Tailwind / DaisyUI)
-
-        JavaScript (Vanilla only, no frameworks)
-
-📌 Rules
-✅ At least 5 meaningful commits
-
-❌ No dummy text or Lorem Ipsum — must use relevant content
-
-
-
-
-
-## 🔗 Submission
-- **Live Link :** YOUR_DEPLOYED_URL_HERE  
-- **GitHub Private Repository:** YOUR_REPO_URL_HERE  
-
----
+### Answer the question no-5
+### ES6 Template Literal
+const name = "Sabbir";
+const age = 20;
+const info = `Name: ${name}, Age: ${age}` & backtik cara name & age count hbeNa..output error asbe;
+console.log(info);

@@ -83,5 +83,5 @@ const loadCategory = () => {
 };
 
 loadCategory();
-loadTreesByCategory();
+// loadTreesByCategory();
 loadAllCategory();
